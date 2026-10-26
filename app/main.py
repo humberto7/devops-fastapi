@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hola DevOps"}
+    return {"message": "Hola DevOps CI"}
